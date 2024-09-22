@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/${project.basedir}/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/${project.basedir}/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/xiaoheishu-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/xiaoheishu-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/xiaoheishu-spring-boot-starter-biz-operationlog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/xiaoheishu-spring-boot-starter-biz-operationlog/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/xiaoheishu-spring-boot-starter-jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-framework/xiaoheishu-spring-boot-starter-jackson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xiaoheishu-gateway/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

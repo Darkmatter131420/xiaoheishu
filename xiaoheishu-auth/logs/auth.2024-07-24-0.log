@@ -1,0 +1,10 @@
+2024-07-24 22:54:33.067 [main] INFO  com.darkmatter.xiaoheishu.auth.RedisTests - Starting RedisTests using Java 19.0.1 with PID 27304 (started by 86183 in D:\Code\xiaoheishu\xiaoheishu-auth)
+2024-07-24 22:54:33.068 [main] INFO  com.darkmatter.xiaoheishu.auth.RedisTests - The following 1 profile is active: "dev"
+2024-07-24 22:54:33.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-24 22:54:33.856 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-24 22:54:33.896 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-07-24 22:54:35.737 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-07-24 22:54:36.508 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-07-24 22:54:37.299 [main] INFO  com.darkmatter.xiaoheishu.auth.RedisTests - Started RedisTests in 4.669 seconds (process running for 5.765)
+2024-07-24 22:54:38.293 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-07-24 22:54:38.305 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

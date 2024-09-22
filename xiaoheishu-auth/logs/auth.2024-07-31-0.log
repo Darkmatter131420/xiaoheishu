@@ -1,0 +1,11 @@
+2024-07-31 10:37:06.416 [main] INFO  c.d.xiaoheishu.auth.ThreadPoolTaskExecutorTests - Starting ThreadPoolTaskExecutorTests using Java 19.0.1 with PID 23148 (started by 86183 in D:\Code\xiaoheishu\xiaoheishu-auth)
+2024-07-31 10:37:06.417 [main] INFO  c.d.xiaoheishu.auth.ThreadPoolTaskExecutorTests - The following 1 profile is active: "dev"
+2024-07-31 10:37:07.191 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-07-31 10:37:07.194 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-07-31 10:37:07.229 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-07-31 10:37:08.845 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-07-31 10:37:09.527 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-07-31 10:37:10.213 [main] INFO  c.d.xiaoheishu.auth.ThreadPoolTaskExecutorTests - Started ThreadPoolTaskExecutorTests in 4.288 seconds (process running for 5.337)
+2024-07-31 10:37:10.630 [AuthExecutor-1] INFO  c.d.xiaoheishu.auth.ThreadPoolTaskExecutorTests - ==> 异步线程中：DarkMatter
+2024-07-31 10:37:10.644 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-07-31 10:37:10.653 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

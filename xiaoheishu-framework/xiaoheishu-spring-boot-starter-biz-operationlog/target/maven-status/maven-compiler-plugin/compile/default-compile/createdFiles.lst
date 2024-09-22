@@ -1,0 +1,3 @@
+com\darkmatter\framework\biz\operationlog\config\ApiOperationLogAutoConfiguration.class
+com\darkmatter\framework\biz\operationlog\aspect\ApiOperationLog.class
+com\darkmatter\framework\biz\operationlog\aspect\ApiOperationLogAspect.class

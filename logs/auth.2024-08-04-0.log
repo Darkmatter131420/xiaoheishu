@@ -1,0 +1,36 @@
+2024-08-04 22:07:59.900 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Starting XiaoheishuAuthApplication using Java 19.0.1 with PID 20740 (D:\Code\xiaoheishu\xiaoheishu-auth\target\classes started by 86183 in D:\Code\xiaoheishu)
+2024-08-04 22:07:59.902 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - The following 1 profile is active: "dev"
+2024-08-04 22:08:00.504 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-04 22:08:00.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-04 22:08:00.536 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-08-04 22:08:01.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-04 22:08:01.196 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-04 22:08:01.196 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-08-04 22:08:01.289 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-04 22:08:01.289 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1353 ms
+2024-08-04 22:08:01.367 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-08-04 22:08:01.654 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-04 22:08:02.564 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-04 22:08:02.571 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Started XiaoheishuAuthApplication in 3.11 seconds (process running for 3.895)
+2024-08-04 22:08:27.100 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-04 22:08:27.101 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-04 22:08:27.101 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-04 22:08:27.214 [http-nio-8080-exec-1] INFO  c.d.f.b.operationlog.aspect.ApiOperationLogAspect - ======请求开始：[发送短信验证码]，入参：{"phone":"19082451297"}，请求类：VerificationCodeController，请求方法：send===============
+2024-08-04 22:08:27.577 [http-nio-8080-exec-1] INFO  c.d.x.a.service.impl.VerificationCodeServiceImpl - ==> 手机号: 19082451297, 已生成验证码：【319796】
+2024-08-04 22:08:27.578 [AuthExecutor-1] INFO  c.darkmatter.xiaoheishu.auth.sms.AliyunSmsHelper - ==> 开始短信发送,phone:19082451297,signName:阿里云短信测试,templateCode:SMS_154950909,templateParam:{"code":"319796"}
+2024-08-04 22:08:27.586 [http-nio-8080-exec-1] INFO  c.d.f.b.operationlog.aspect.ApiOperationLogAspect - ======请求结束：[发送短信验证码]，耗时：379ms，出参：{"success":true,"message":null,"errorCode":null,"data":null}===============
+2024-08-04 22:08:28.554 [AuthExecutor-1] INFO  c.darkmatter.xiaoheishu.auth.sms.AliyunSmsHelper - ==> 短信发送成功,response：{"headers":{"access-control-allow-origin":"*","date":"Sun, 04 Aug 2024 14:08:28 GMT","content-length":"110","keep-alive":"timeout=25","x-acs-request-id":"C02D449F-3AB1-5B3D-B6A3-58194D7940A5","connection":"keep-alive","content-type":"application/json;charset=utf-8","etag":"1OsvBV7dOJeN/NbIYWK+lJA0","access-control-expose-headers":"*","x-acs-trace-id":"dc967a02b7caa64c6ae5cf16235e3976"},"statusCode":200,"body":{"bizId":"388917322780508022^0","code":"OK","message":"OK","requestId":"C02D449F-3AB1-5B3D-B6A3-58194D7940A5"}}
+2024-08-04 22:09:15.088 [http-nio-8080-exec-4] INFO  c.d.f.b.operationlog.aspect.ApiOperationLogAspect - ======请求开始：[用户登录/注册]，入参：{"phone":"19082451297","code":"319796","password":null,"type":1}，请求类：UserController，请求方法：loginAndRegister===============
+2024-08-04 22:09:15.123 [http-nio-8080-exec-4] DEBUG c.d.x.a.domain.mapper.UserDOMapper.selectByPhone - ==>  Preparing: select id, password from t_user where phone = ?
+2024-08-04 22:09:15.261 [http-nio-8080-exec-4] DEBUG c.d.x.a.domain.mapper.UserDOMapper.selectByPhone - ==> Parameters: 19082451297(String)
+2024-08-04 22:09:15.276 [http-nio-8080-exec-4] DEBUG c.d.x.a.domain.mapper.UserDOMapper.selectByPhone - <==      Total: 0
+2024-08-04 22:09:15.278 [http-nio-8080-exec-4] INFO  c.d.xiaoheishu.auth.service.impl.UserServiceImpl - 用户是否注册，phone: 19082451297, userDO: null
+2024-08-04 22:09:15.284 [http-nio-8080-exec-4] DEBUG c.d.x.auth.domain.mapper.UserDOMapper.insert - ==>  Preparing: insert into t_user (xiaoheishu_id, `password`, nickname, avatar, birthday, background_img, phone, sex, `status`, introduction, create_time, update_time, is_deleted) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-08-04 22:09:15.373 [http-nio-8080-exec-4] DEBUG c.d.x.auth.domain.mapper.UserDOMapper.insert - ==> Parameters: 10001(String), null, 小黑薯10001(String), null, null, null, 19082451297(String), null, 0(Integer), null, 2024-08-04T22:09:15.282705400(LocalDateTime), 2024-08-04T22:09:15.283229100(LocalDateTime), false(Boolean)
+2024-08-04 22:09:15.396 [http-nio-8080-exec-4] DEBUG c.d.x.auth.domain.mapper.UserDOMapper.insert - <==    Updates: 1
+2024-08-04 22:09:15.399 [http-nio-8080-exec-4] DEBUG c.d.x.auth.domain.mapper.UserRoleDOMapper.insert - ==>  Preparing: insert into t_user_role_rel (id, user_id, role_id, create_time, update_time, is_deleted ) values (?, ?, ?, ?, ?, ? )
+2024-08-04 22:09:15.402 [http-nio-8080-exec-4] DEBUG c.d.x.auth.domain.mapper.UserRoleDOMapper.insert - ==> Parameters: null, 1(Long), 1(Long), 2024-08-04T22:09:15.399879100(LocalDateTime), 2024-08-04T22:09:15.399879100(LocalDateTime), false(Boolean)
+2024-08-04 22:09:15.405 [http-nio-8080-exec-4] DEBUG c.d.x.auth.domain.mapper.UserRoleDOMapper.insert - <==    Updates: 1
+2024-08-04 22:09:15.462 [http-nio-8080-exec-4] INFO  c.d.f.b.operationlog.aspect.ApiOperationLogAspect - ======请求结束：[用户登录/注册]，耗时：374ms，出参：{"success":true,"message":null,"errorCode":null,"data":"fc13b7c6-3250-452b-a40b-4d18dbf5d021"}===============
+2024-08-04 22:11:09.859 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-04 22:11:09.864 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

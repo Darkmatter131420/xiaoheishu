@@ -1,0 +1,17 @@
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\sms\AliyunSmsClientConfig.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\domain\mapper\UserDOMapper.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\sms\AliyunAccessKeyProperties.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\exception\GlobalExceptionHandler.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\constant\RedisKeyConstants.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\config\ThreadPoolConfig.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\controller\VerificationCodeController.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\model\vo\verificationcode\SendVerificationCodeReqVo.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\service\VerificationCodeService.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\config\RedisTemplateConfig.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\XiaoheishuAuthApplication.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\sms\AliyunSmsHelper.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\service\impl\VerificationCodeServiceImpl.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\domain\dataobject\UserDO.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\controller\TestController.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\controller\User.java
+D:\Code\xiaoheishu\xiaoheishu-auth\src\main\java\com\darkmatter\xiaoheishu\auth\enums\ResponseCodeEnum.java

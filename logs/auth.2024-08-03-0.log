@@ -1,0 +1,61 @@
+2024-08-03 15:26:59.260 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Starting XiaoheishuAuthApplication using Java 19.0.1 with PID 18288 (D:\Code\xiaoheishu\xiaoheishu-auth\target\classes started by 86183 in D:\Code\xiaoheishu)
+2024-08-03 15:26:59.261 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - The following 1 profile is active: "dev"
+2024-08-03 15:26:59.967 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03 15:26:59.970 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-03 15:27:00.002 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-08-03 15:27:00.781 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-03 15:27:00.793 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-03 15:27:00.793 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-08-03 15:27:00.896 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-03 15:27:00.896 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1600 ms
+2024-08-03 15:27:01.652 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-08-03 15:27:01.922 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-03 15:27:02.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-03 15:27:02.320 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Started XiaoheishuAuthApplication in 3.545 seconds (process running for 4.524)
+2024-08-03 15:27:55.928 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03 15:27:55.928 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-03 15:27:55.929 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-03 15:27:55.953 [http-nio-8080-exec-1] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.darkmatter.xiaoheishu.auth.controller.TestController
+2024-08-03 15:31:28.341 [http-nio-8080-exec-2] INFO  c.d.f.b.operationlog.aspect.ApiOperationLogAspect - ======请求开始：[测试接口]，入参：，请求类：TestController，请求方法：test===============
+2024-08-03 15:31:28.344 [http-nio-8080-exec-2] INFO  c.d.f.b.operationlog.aspect.ApiOperationLogAspect - ======请求结束：[测试接口]，耗时：2ms，出参：{"success":true,"message":null,"errorCode":null,"data":"Hello.DarkMatter!"}===============
+2024-08-03 15:31:49.569 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-03 15:31:49.575 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-03 15:31:52.465 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Starting XiaoheishuAuthApplication using Java 19.0.1 with PID 23992 (D:\Code\xiaoheishu\xiaoheishu-auth\target\classes started by 86183 in D:\Code\xiaoheishu)
+2024-08-03 15:31:52.467 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - The following 1 profile is active: "dev"
+2024-08-03 15:31:52.979 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03 15:31:52.981 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-03 15:31:53.002 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-08-03 15:31:53.546 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-03 15:31:53.553 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-03 15:31:53.553 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-08-03 15:31:53.639 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-03 15:31:53.639 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1135 ms
+2024-08-03 15:31:54.243 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-08-03 15:31:54.474 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-03 15:31:54.775 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-03 15:31:54.780 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Started XiaoheishuAuthApplication in 2.734 seconds (process running for 3.427)
+2024-08-03 15:32:17.627 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03 15:32:17.627 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-03 15:32:17.628 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-03 15:33:25.388 [http-nio-8080-exec-10] WARN  o.s.core.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.darkmatter.xiaoheishu.auth.controller.TestController
+2024-08-03 15:34:03.310 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-03 15:34:03.315 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-08-03 15:34:06.050 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Starting XiaoheishuAuthApplication using Java 19.0.1 with PID 9940 (D:\Code\xiaoheishu\xiaoheishu-auth\target\classes started by 86183 in D:\Code\xiaoheishu)
+2024-08-03 15:34:06.052 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - The following 1 profile is active: "dev"
+2024-08-03 15:34:06.553 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-03 15:34:06.555 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-08-03 15:34:06.581 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-08-03 15:34:07.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-08-03 15:34:07.120 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-03 15:34:07.120 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2024-08-03 15:34:07.209 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-03 15:34:07.209 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1126 ms
+2024-08-03 15:34:07.767 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2024-08-03 15:34:08.005 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-08-03 15:34:08.301 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-08-03 15:34:08.307 [main] INFO  c.d.xiaoheishu.auth.XiaoheishuAuthApplication - Started XiaoheishuAuthApplication in 2.651 seconds (process running for 3.273)
+2024-08-03 15:34:15.111 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-03 15:34:15.111 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-03 15:34:15.111 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-03 22:42:32.284 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-08-03 22:42:32.287 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
